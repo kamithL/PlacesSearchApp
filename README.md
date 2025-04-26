@@ -84,9 +84,11 @@ GOOGLE_MAPS_API_KEY=*******…YourKeyHere
 .
 ├── app/                        # Expo Router entry-point
 
-│   ├── (tabs)/
+│  
+├── (tabs)/
 
-│   │   ├── _layout.tsx         # Bottom-tab layout
+│   
+│   ├── _layout.tsx         # Bottom-tab layout
 
 │   │   ├── map.tsx             # Map screen
 
