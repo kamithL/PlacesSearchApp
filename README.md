@@ -80,21 +80,4 @@ GOOGLE_MAPS_API_KEY=*******…YourKeyHere
         expo start --dev-client
 
 📂 Project Structure
-
-.
-├── app/                        # Expo Router entry-point
-│   ├── (tabs)/
-│   │   ├── _layout.tsx         # Bottom-tab layout
-│   │   ├── map.tsx             # Map screen
-│   │   └── history.tsx         # History screen
-│   └── index.tsx               # App bootstrap
-├── app/components/
-│   └── MapWithLabel.tsx        # Custom map marker + label
-├── app/contexts/
-│   └── MapContext.tsx          # Shared map state (location, place info)
-├── app/utils/
-│   └── storage.ts              # AsyncStorage helpers
-├── assets/                     # Icons, splash, etc.
-├── app.json                    # Expo config (incl. API key in extra)
-├── package.json
-└── README.md                   # ← You are here
+![Screenshot 2025-04-27 at 00.42.00.png](../../../../../var/folders/55/7vwyhw151sx2q34hy1s6dw680000gn/T/TemporaryItems/NSIRD_screencaptureui_58tdVR/Screenshot%202025-04-27%20at%2000.42.00.png)
