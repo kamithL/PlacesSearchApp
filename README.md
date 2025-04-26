@@ -78,4 +78,6 @@ GOOGLE_MAPS_API_KEY=*******…YourKeyHere
 
     If you’re using a custom Dev Client, use:
         expo start --dev-client
+ ##📂 Project Structure       
+<img width="775" alt="Screenshot 2025-04-27 at 00 51 55" src="https://github.com/user-attachments/assets/3f1d6661-cc50-48de-ad79-3f73b2d03e8c" />
 
