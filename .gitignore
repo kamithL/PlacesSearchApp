@@ -3,7 +3,7 @@ node_modules/
 yarn.lock
 package-lock.json
 
-# local env vars
+# Local env vars
 .env
 .env.*.local
 
@@ -13,6 +13,11 @@ package-lock.json
 dist/
 web-build/
 expo-env.d.ts
+.expo/.packager-cache/
+.expo/modules.json
+
+# Development client logs
+*.expo-development-client.log
 
 # iOS
 ios/Pods/
@@ -26,12 +31,18 @@ xcuserdata/
 android/.gradle/
 android/app/build/
 android/build/
+build/
 
 # Metro
 .metro-health-check*
+.metro-cache/
 
 # TypeScript build cache
 *.tsbuildinfo
+
+# Fastlane (if used)
+fastlane/report.xml
+fastlane/Preview.html
 
 # Logs
 npm-debug.log*
@@ -45,7 +56,7 @@ yarn-error.log*
 .idea/
 *.iml
 
-# Vscode
+# VSCode
 .vscode/
 
 # PKI / key files
