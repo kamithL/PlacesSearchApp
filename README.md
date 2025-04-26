@@ -79,7 +79,7 @@ GOOGLE_MAPS_API_KEY=*******…YourKeyHere
     If you’re using a custom Dev Client, use:
         expo start --dev-client
 
-📂 Project Structure
+## 📂 Project Structure
 
 .
 ├── app/                        # Expo Router entry-point
