@@ -1,41 +1,41 @@
 {
   "expo": {
-    "name": "PlacesSearchApp",
-    "slug": "PlacesSearchApp",
+    "name": "Places Finder ",
+    "slug": "placessearchapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "placessearchapp",
+    "developmentClient": {
+      "silentLaunch": false
+    },
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "icon": "./app/assets/icons/app_icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kamith.placessearchapp"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.kamith.placessearchapp"
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./app/assets/icons/app_icon.png"
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "eas": {
+        "projectId": "replace-this-later"
+      }
+    },
+    "experimental": {
+      "newArchEnabled": false
     }
   }
 }
