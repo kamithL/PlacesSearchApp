@@ -40,7 +40,6 @@ export default function HistoryScreen() {
     );
 
     const goTo = async (text: string) => {
-        console.log('goTo--------', text);
         try {
             const res = await fetch(
                 `https://maps.googleapis.com/maps/api/place/findplacefromtext/json` +
@@ -49,7 +48,6 @@ export default function HistoryScreen() {
             );
             const json = await res.json();
             const loc = json.candidates?.[0]?.geometry?.location;
-            console.log('json', json);
             if (loc) {
                 setLocation({ latitude: loc.lat, longitude: loc.lng });
                 setPlaceName(text);
